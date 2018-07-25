@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import './App.css';
+import './Blog.css';
 
 class NavBar extends React.Component {
   render() {
     return(
-      <div className="App-navbar"><h1>Navbar</h1></div>
+      <div className="Blog-navbar"><h1>Navbar</h1></div>
     )
   }
 }
@@ -20,7 +20,7 @@ class Header extends React.Component {
 class ArticlePreview extends React.Component {
   render() {
     return(
-      <div className="App-article">
+      <div className="Blog-article">
         Article
       </div>
     )
@@ -30,7 +30,7 @@ class ArticlePreview extends React.Component {
 class Body extends React.Component {
   render() {
     return(
-      <div className="App-body">
+      <div className="Blog-body">
         <ArticlePreview />
         <ArticlePreview />
         <ArticlePreview />
@@ -45,7 +45,7 @@ class Body extends React.Component {
 class Footer extends React.Component {
   render() {
     return(
-      <div className="App-footer">
+      <div className="Blog-footer">
         Footer
       </div>
     )
@@ -55,7 +55,7 @@ class Footer extends React.Component {
 class HomePage extends React.Component {
   render() {
     return(
-      <div className="App">
+      <div className="Blog">
         <Header />
         <Body />
         <Footer />
@@ -64,7 +64,7 @@ class HomePage extends React.Component {
   }
 }
 
-class App extends Component {
+class Blog extends Component {
   render() {
     return (
       <HomePage />
@@ -72,4 +72,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Blog;
