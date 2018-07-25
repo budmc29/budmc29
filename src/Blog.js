@@ -4,7 +4,26 @@ import './Blog.css';
 class NavBar extends React.Component {
   render() {
     return(
-      <div className="Blog-navbar"><h1>Navbar</h1></div>
+      <div className="navbar">
+        <div className="navbar--section">
+          <h1 className="navbar--logo">Navbar</h1>
+          <div className="navbar--menu">
+            <ul className="navbar--menu--items">
+              <li><a className="navbar--menu--item" href="#">about</a></li>
+              <li><a className="navbar--menu--item" href="=">contact</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="navbar--section">
+          <div className="social--menu">
+            <ul className="social--menu--items">
+              <li><a className="social--menu--item" href="#">github</a></li>
+              <li><a className="social--menu--item" href="=">so</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     )
   }
 }

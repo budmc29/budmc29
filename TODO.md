@@ -1,4 +1,5 @@
 Terminal theme
+https://internetingishard.com/html-and-css/
 https://melangue.github.io/dactl/
 https://raw.githubusercontent.com/getpelican/pelican-themes/master/dev-random2/screenshot.png
 https://raw.githubusercontent.com/getpelican/pelican-themes/master/aboutwilson/screenshot.png
